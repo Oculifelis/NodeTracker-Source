@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.nodetracker.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": [
+    "WindowNoFocusMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
