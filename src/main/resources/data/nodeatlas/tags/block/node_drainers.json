@@ -1,0 +1,8 @@
+{
+  "values": [
+    {
+      "id": "technomancy:node_dynamo",
+      "required": false
+    }
+  ]
+}

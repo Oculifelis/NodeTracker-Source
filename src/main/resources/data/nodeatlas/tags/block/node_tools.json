@@ -1,0 +1,29 @@
+{
+  "values": [
+    {
+      "id": "gadomancyawakened:node_manipulator",
+      "required": false
+    },
+    {
+      "id": "gadomancyawakened:aura_pylon",
+      "required": false
+    },
+    {
+      "id": "gadomancyawakened:aura_pylon_peak",
+      "required": false
+    },
+    {
+      "id": "thaumaturgicbases:node_linker",
+      "required": false
+    },
+    {
+      "id": "thaumaturgicbases:node_manipulator",
+      "required": false
+    },
+    {
+      "id": "technomancy:node_fabricator",
+      "required": false
+    },
+    "#nodeatlas:node_drainers"
+  ]
+}

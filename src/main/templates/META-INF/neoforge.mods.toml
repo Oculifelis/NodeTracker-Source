@@ -1,0 +1,65 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="${mod_license}"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+logoFile="nodeatlas_logo.png"
+logoBlur=false
+displayURL="https://www.curseforge.com/minecraft/mc-mods/node-atlas"
+authors="Oculifelis (port); Dyonovan and GTNewHorizons (original Thaumcraft Node Tracker)"
+credits="A port of Thaumcraft Node Tracker by Dyonovan, as maintained by GTNewHorizons (github.com/GTNewHorizons/TCNodeTracker), under CC BY-NC-SA 4.0. This port is under the same licence. The original's textures are not used: the arrow is drawn in code and the aspect icons are Thaumaturge's own. Thaumaturge by Leclowndu93150 and contributors."
+description='''
+Client side only. Keeps a log of scanned aura nodes per world or server: right-click a node with the Thaumometer, or
+while wearing Goggles of Revealing. Press I for the list to filter and sort by aspect and mark a node. An arrow on
+screen points to the marked node while the goggles are worn. Logged nodes also show on JourneyMap, Xaero's Minimap and
+World Map, and FTB Chunks when those are installed.
+'''
+
+[[mixins]]
+config="nodeatlas.mixins.json"
+
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    type="required"
+    versionRange="[26.1.2.71,)"
+    ordering="NONE"
+    side="CLIENT"
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="CLIENT"
+[[dependencies.${mod_id}]]
+    modId="thaumaturge"
+    type="required"
+    versionRange="${thaumaturge_version_range}"
+    ordering="AFTER"
+    side="CLIENT"
+[[dependencies.${mod_id}]]
+    modId="journeymap"
+    type="optional"
+    versionRange="*"
+    ordering="NONE"
+    side="CLIENT"
+[[dependencies.${mod_id}]]
+    modId="xaerominimap"
+    type="optional"
+    versionRange="*"
+    ordering="NONE"
+    side="CLIENT"
+[[dependencies.${mod_id}]]
+    modId="xaeroworldmap"
+    type="optional"
+    versionRange="*"
+    ordering="NONE"
+    side="CLIENT"
+[[dependencies.${mod_id}]]
+    modId="ftbchunks"
+    type="optional"
+    versionRange="*"
+    ordering="NONE"
+    side="CLIENT"

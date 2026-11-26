@@ -1,0 +1,13 @@
+{
+  "_comment": "Map marker looks for Node Atlas. Resource packs can replace this file. Colours are #RRGGBB or #AARRGGBB. Shapes: diamond, circle, square. size is the marker width in pixels. xaero_color is the index of a Xaero's Minimap waypoint colour (0 black to 15 white, the chat colour order).",
+  "default": { "color": "#9A6CFF", "outline": "#1A0B2E", "shape": "diamond", "size": 9, "xaero_color": 13 },
+  "marked": { "color": "#55FFFF", "outline": "#0B2E2E", "shape": "diamond", "size": 11, "xaero_color": 11 },
+  "types": {
+    "normal": { "color": "#9A6CFF", "xaero_color": 13 },
+    "pure": { "color": "#F2F0FF", "xaero_color": 15 },
+    "dark": { "color": "#4B2A6B", "outline": "#E0D0FF", "xaero_color": 5 },
+    "tainted": { "color": "#B43CC8", "shape": "circle", "xaero_color": 5 },
+    "hungry": { "color": "#A83232", "shape": "circle", "xaero_color": 4 },
+    "unstable": { "color": "#FFB43C", "shape": "square", "size": 8, "xaero_color": 6 }
+  }
+}
